@@ -1,0 +1,9 @@
+org\slk\pages\SearchorAddPatientPage.class
+org\slk\base\WebDriverWrapper.class
+org\slk\test\LoginTest.class
+org\slk\test\PDemo.class
+org\slk\test\AddPatientNameTest.class
+org\slk\pages\DashboardPage.class
+org\slk\test\SearchPatientNameTest.class
+org\slk\utilities\ExcelUtilities.class
+org\slk\pages\LoginPage.class

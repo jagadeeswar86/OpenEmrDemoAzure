@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenEmdDemo Suite">
+
+	<parameter name="browser" value="ch"></parameter>
+	<test thread-count="5" name="Logoin Test ch">
+		<classes>
+			<class name="org.slk.test.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name=" Login Test ie">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="org.slk.test.LoginTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test thread-count="5" name=" Login Test ff">
+		<parameter name="browser" value="ff"></parameter>
+		<classes>
+			<class name="org.slk.test.LoginTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- OpenEmdDemo Suite -->

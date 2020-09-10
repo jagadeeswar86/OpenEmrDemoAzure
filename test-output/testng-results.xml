@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52248" started-at="2020-09-10T17:20:08 EDT" finished-at="2020-09-10T17:21:00 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52248" started-at="2020-09-10T17:20:08 EDT" finished-at="2020-09-10T17:21:00 EDT">
+      <class name="org.slk.test.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="8642" started-at="2020-09-10T17:20:09 EDT" finished-at="2020-09-10T17:20:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="3539" started-at="2020-09-10T17:20:17 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-09-10T17:20:21 EDT" finished-at="2020-09-10T17:20:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="6917" started-at="2020-09-10T17:20:21 EDT" finished-at="2020-09-10T17:20:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2999" started-at="2020-09-10T17:20:28 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:31 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T17:20:31 EDT" finished-at="2020-09-10T17:20:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="7108" started-at="2020-09-10T17:20:31 EDT" finished-at="2020-09-10T17:20:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2866" started-at="2020-09-10T17:20:38 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clinician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[clinician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T17:20:41 EDT" finished-at="2020-09-10T17:20:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="6816" started-at="2020-09-10T17:20:41 EDT" finished-at="2020-09-10T17:20:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2723" started-at="2020-09-10T17:20:47 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-09-10T17:20:50 EDT" finished-at="2020-09-10T17:20:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="6764" started-at="2020-09-10T17:20:50 EDT" finished-at="2020-09-10T17:20:57 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2856" started-at="2020-09-10T17:20:57 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:21:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[receptionist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[receptionist]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T17:21:00 EDT" finished-at="2020-09-10T17:21:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.slk.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
