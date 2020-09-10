@@ -77,7 +77,6 @@ public class SearchorAddPatientPage {
 	public static void waitAlerts(WebDriver driver)
 	{
 		
-	    
 	     WebDriverWait wait=new WebDriverWait(driver,40);
 		 wait.until(ExpectedConditions.alertIsPresent());
 	}
