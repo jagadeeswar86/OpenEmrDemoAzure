@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-skipped">Command line suite</span>
+              <span class="suite-name border-failed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,61 +93,135 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,  9 skipped,  </span>
+                    <span class="method-stats">22 methods, 1 failed,   21 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Command_line_suite">
+                    <div class="method-list-content failed suite-Command_line_suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="invalidCredintailsTest">invalidCredintailsTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.SearchPatientNameTest" hash-for-method="searchPatientName(physician, physician, Default - English (Standard), Medical Record Dashboard - Phil Belford)">searchPatientName(physician, physician, Default - English (Standard), Medical Record Dashboard - Phil Belford)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="invalidCredintailsTest(david, hello1, Default - English (Standard), Invalid username or password)">invalidCredintailsTest(david, hello1, Default - English (Standard), Invalid username or password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.AddPatientNameTest" hash-for-method="patientRegName">patientRegName</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="invalidCredintailsTest(selenium, hai123, Default - English (Standard), Invalid username or password)">invalidCredintailsTest(selenium, hai123, Default - English (Standard), Invalid username or password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.SearchPatientNameTest" hash-for-method="searchPatientName">searchPatientName</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="invalidCredintailsTest(jon, pass123, Default - English (Standard), Invalid username or password)">invalidCredintailsTest(jon, pass123, Default - English (Standard), Invalid username or password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest">validCredintailsTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="invalidCredintailsTest(testq, hai123, Default - English (Standard), Invalid username or password)">invalidCredintailsTest(testq, hai123, Default - English (Standard), Invalid username or password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(physician, physician)">validCredintailsTest1(physician, physician)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="invalidCredintailsTest(admin, pass123, Default - English (Standard), Invalid username or password)">invalidCredintailsTest(admin, pass123, Default - English (Standard), Invalid username or password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(accountant, accountant)">validCredintailsTest1(accountant, accountant)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.AddPatientNameTest" hash-for-method="patientRegName(physician, physician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)">patientRegName(physician, physician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.AddPatientNameTest" hash-for-method="patientRegName(clinician, clinician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)">patientRegName(clinician, clinician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.AddPatientNameTest" hash-for-method="patientRegName(accountant, accountant, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical...)">patientRegName(accountant, accountant, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.AddPatientNameTest" hash-for-method="patientRegName(admin, pass, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Das...)">patientRegName(admin, pass, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Das...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.AddPatientNameTest" hash-for-method="patientRegName(receptionist, receptionist, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Med...)">patientRegName(receptionist, receptionist, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Med...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.SearchPatientNameTest" hash-for-method="searchPatientName(admin, pass, Default - English (Standard), Medical Record Dashboard - Phil Belford)">searchPatientName(admin, pass, Default - English (Standard), Medical Record Dashboard - Phil Belford)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest(physician, physician, Default - English (Standard), OpenEMR)">validCredintailsTest(physician, physician, Default - English (Standard), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest(accountant, accountant, Default - English (Standard), OpenEMR)">validCredintailsTest(accountant, accountant, Default - English (Standard), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest(clinician, clinician, Default - English (Standard), OpenEMR)">validCredintailsTest(clinician, clinician, Default - English (Standard), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest(admin, pass, Default - English (Standard), OpenEMR)">validCredintailsTest(admin, pass, Default - English (Standard), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest(receptionist, receptionist, Default - English (Standard), OpenEMR)">validCredintailsTest(receptionist, receptionist, Default - English (Standard), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(receptionist, receptionist)">validCredintailsTest1(receptionist, receptionist)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(clinician, clinician)">validCredintailsTest1(clinician, clinician)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(admin, pass)">validCredintailsTest1(admin, pass)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(receptionist, receptionist)">validCredintailsTest1(receptionist, receptionist)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(physician, physician)">validCredintailsTest1(physician, physician)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="org.slk.test.LoginTest" hash-for-method="validCredintailsTest1(accountant, accountant)">validCredintailsTest1(accountant, accountant)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -159,206 +233,202 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-skipped">
+          <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">org.slk.test.SearchPatientNameTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchPatientName">
-                  </a> <!-- searchPatientName -->
+                  <a name="searchPatientName(physician, physician, Default - English (Standard), Medical Record Dashboard - Phil Belford)">
+                  </a> <!-- searchPatientName(physician, physician, Default - English (Standard), Medical Record Dashboard - Phil Belford) -->
                   <span class="method-name">searchPatientName</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
+                  <span class="parameters">(physician, physician, Default - English (Standard), Medical Record Dashboard - Phil Belford)</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : New Due Clinical Reminders
+
+Measurement: Blood Pressure
+Assessment: Tobacco
+
+(See the Clinical Reminders widget for more details)}
+  (Session info: chrome=85.0.4183.83): New Due Clinical Reminders
+
+Measurement: Blood Pressure
+Assessment: Tobacco
+
+(See the Clinical Reminders widget for more details)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;LAPTOP-VQ71OE6S&apos;, ip: &apos;10.3.46.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d8e335d4e94bedd5e7f4b4de40a95a9
+*** Element info: {Using=xpath, value=(//iframe[@data-bind=&apos;location: $data, iframeName: $data.name, &apos;])[3]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.slk.pages.DashboardPage.switchToFinFrame(DashboardPage.java:44)
+	at org.slk.test.SearchPatientNameTest.searchPatientName(SearchPatientNameTest.java:45)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-	at org.slk.test.SearchPatientNameTest.searchPatientData(SearchPatientNameTest.java:19)
-	... 35 more
-... Removed 42 stack frames
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">org.slk.test.SearchPatientNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPatientName(admin, pass, Default - English (Standard), Medical Record Dashboard - Phil Belford)">
+                  </a> <!-- searchPatientName(admin, pass, Default - English (Standard), Medical Record Dashboard - Phil Belford) -->
+                  <span class="method-name">searchPatientName</span>
+                  <span class="parameters">(admin, pass, Default - English (Standard), Medical Record Dashboard - Phil Belford)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">org.slk.test.AddPatientNameTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="patientRegName">
-                  </a> <!-- patientRegName -->
+                  <a name="patientRegName(physician, physician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)">
+                  </a> <!-- patientRegName(physician, physician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...) -->
                   <span class="method-name">patientRegName</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-	at org.slk.test.AddPatientNameTest.patientRegData(AddPatientNameTest.java:21)
-	... 35 more
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">(physician, physician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Dashboard - HelloHai Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientRegName(clinician, clinician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)">
+                  </a> <!-- patientRegName(clinician, clinician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...) -->
+                  <span class="method-name">patientRegName</span>
+                  <span class="parameters">(clinician, clinician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Dashboard - HelloHai Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientRegName(accountant, accountant, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical...)">
+                  </a> <!-- patientRegName(accountant, accountant, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical...) -->
+                  <span class="method-name">patientRegName</span>
+                  <span class="parameters">(accountant, accountant, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Dashboard - HelloHai Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientRegName(admin, pass, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Das...)">
+                  </a> <!-- patientRegName(admin, pass, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Das...) -->
+                  <span class="method-name">patientRegName</span>
+                  <span class="parameters">(admin, pass, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Dashboard - HelloHai Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientRegName(receptionist, receptionist, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Med...)">
+                  </a> <!-- patientRegName(receptionist, receptionist, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Med...) -->
+                  <span class="method-name">patientRegName</span>
+                  <span class="parameters">(receptionist, receptionist, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Dashboard - HelloHai Test)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">org.slk.test.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidCredintailsTest">
-                  </a> <!-- invalidCredintailsTest -->
+                  <a name="invalidCredintailsTest(david, hello1, Default - English (Standard), Invalid username or password)">
+                  </a> <!-- invalidCredintailsTest(david, hello1, Default - English (Standard), Invalid username or password) -->
                   <span class="method-name">invalidCredintailsTest</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-	at org.slk.test.LoginTest.invalidCredintailsData(LoginTest.java:82)
-	... 35 more
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">(david, hello1, Default - English (Standard), Invalid username or password)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredintailsTest">
-                  </a> <!-- validCredintailsTest -->
+                  <a name="invalidCredintailsTest(selenium, hai123, Default - English (Standard), Invalid username or password)">
+                  </a> <!-- invalidCredintailsTest(selenium, hai123, Default - English (Standard), Invalid username or password) -->
+                  <span class="method-name">invalidCredintailsTest</span>
+                  <span class="parameters">(selenium, hai123, Default - English (Standard), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredintailsTest(jon, pass123, Default - English (Standard), Invalid username or password)">
+                  </a> <!-- invalidCredintailsTest(jon, pass123, Default - English (Standard), Invalid username or password) -->
+                  <span class="method-name">invalidCredintailsTest</span>
+                  <span class="parameters">(jon, pass123, Default - English (Standard), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredintailsTest(testq, hai123, Default - English (Standard), Invalid username or password)">
+                  </a> <!-- invalidCredintailsTest(testq, hai123, Default - English (Standard), Invalid username or password) -->
+                  <span class="method-name">invalidCredintailsTest</span>
+                  <span class="parameters">(testq, hai123, Default - English (Standard), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredintailsTest(admin, pass123, Default - English (Standard), Invalid username or password)">
+                  </a> <!-- invalidCredintailsTest(admin, pass123, Default - English (Standard), Invalid username or password) -->
+                  <span class="method-name">invalidCredintailsTest</span>
+                  <span class="parameters">(admin, pass123, Default - English (Standard), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredintailsTest(physician, physician, Default - English (Standard), OpenEMR)">
+                  </a> <!-- validCredintailsTest(physician, physician, Default - English (Standard), OpenEMR) -->
                   <span class="method-name">validCredintailsTest</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-	at org.slk.test.LoginTest.validCredintailsData(LoginTest.java:55)
-	... 35 more
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">(physician, physician, Default - English (Standard), OpenEMR)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredintailsTest1(physician, physician)">
-                  </a> <!-- validCredintailsTest1(physician, physician) -->
-                  <span class="method-name">validCredintailsTest1</span>
-                  <span class="parameters">(physician, physician)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
-System info: host: &apos;LAPTOP-VQ71OE6S&apos;, ip: &apos;10.3.46.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 45 stack frames
-</div> <!-- stack-trace -->
+                  <a name="validCredintailsTest(accountant, accountant, Default - English (Standard), OpenEMR)">
+                  </a> <!-- validCredintailsTest(accountant, accountant, Default - English (Standard), OpenEMR) -->
+                  <span class="method-name">validCredintailsTest</span>
+                  <span class="parameters">(accountant, accountant, Default - English (Standard), OpenEMR)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredintailsTest1(accountant, accountant)">
-                  </a> <!-- validCredintailsTest1(accountant, accountant) -->
-                  <span class="method-name">validCredintailsTest1</span>
-                  <span class="parameters">(accountant, accountant)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
-System info: host: &apos;LAPTOP-VQ71OE6S&apos;, ip: &apos;10.3.46.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 45 stack frames
-</div> <!-- stack-trace -->
+                  <a name="validCredintailsTest(clinician, clinician, Default - English (Standard), OpenEMR)">
+                  </a> <!-- validCredintailsTest(clinician, clinician, Default - English (Standard), OpenEMR) -->
+                  <span class="method-name">validCredintailsTest</span>
+                  <span class="parameters">(clinician, clinician, Default - English (Standard), OpenEMR)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredintailsTest1(clinician, clinician)">
-                  </a> <!-- validCredintailsTest1(clinician, clinician) -->
-                  <span class="method-name">validCredintailsTest1</span>
-                  <span class="parameters">(clinician, clinician)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
-System info: host: &apos;LAPTOP-VQ71OE6S&apos;, ip: &apos;10.3.46.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 45 stack frames
-</div> <!-- stack-trace -->
+                  <a name="validCredintailsTest(admin, pass, Default - English (Standard), OpenEMR)">
+                  </a> <!-- validCredintailsTest(admin, pass, Default - English (Standard), OpenEMR) -->
+                  <span class="method-name">validCredintailsTest</span>
+                  <span class="parameters">(admin, pass, Default - English (Standard), OpenEMR)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredintailsTest1(admin, pass)">
-                  </a> <!-- validCredintailsTest1(admin, pass) -->
-                  <span class="method-name">validCredintailsTest1</span>
-                  <span class="parameters">(admin, pass)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
-System info: host: &apos;LAPTOP-VQ71OE6S&apos;, ip: &apos;10.3.46.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 45 stack frames
-</div> <!-- stack-trace -->
+                  <a name="validCredintailsTest(receptionist, receptionist, Default - English (Standard), OpenEMR)">
+                  </a> <!-- validCredintailsTest(receptionist, receptionist, Default - English (Standard), OpenEMR) -->
+                  <span class="method-name">validCredintailsTest</span>
+                  <span class="parameters">(receptionist, receptionist, Default - English (Standard), OpenEMR)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -367,28 +437,42 @@ Session ID: c2a270bb4ea2b0e4687b7c2660bff214
                   </a> <!-- validCredintailsTest1(receptionist, receptionist) -->
                   <span class="method-name">validCredintailsTest1</span>
                   <span class="parameters">(receptionist, receptionist)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
-System info: host: &apos;LAPTOP-VQ71OE6S&apos;, ip: &apos;10.3.46.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-	at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 45 stack frames
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredintailsTest1(clinician, clinician)">
+                  </a> <!-- validCredintailsTest1(clinician, clinician) -->
+                  <span class="method-name">validCredintailsTest1</span>
+                  <span class="parameters">(clinician, clinician)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredintailsTest1(admin, pass)">
+                  </a> <!-- validCredintailsTest1(admin, pass) -->
+                  <span class="method-name">validCredintailsTest1</span>
+                  <span class="parameters">(admin, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredintailsTest1(physician, physician)">
+                  </a> <!-- validCredintailsTest1(physician, physician) -->
+                  <span class="method-name">validCredintailsTest1</span>
+                  <span class="parameters">(physician, physician)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredintailsTest1(accountant, accountant)">
+                  </a> <!-- validCredintailsTest1(accountant, accountant) -->
+                  <span class="method-name">validCredintailsTest1</span>
+                  <span class="parameters">(accountant, accountant)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
         </div> <!-- panel Command_line_suite -->
         <div panel-name="test-xml-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -442,48 +526,100 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(22);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validCredintailsTest1')
-data.setCell(0, 2, 'org.slk.test.LoginTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'patientRegName')
+data.setCell(0, 2, 'org.slk.test.AddPatientNameTest')
+data.setCell(0, 3, 27147);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'patientRegName')
 data.setCell(1, 2, 'org.slk.test.AddPatientNameTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 27099);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validCredintailsTest1')
-data.setCell(2, 2, 'org.slk.test.LoginTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'patientRegName')
+data.setCell(2, 2, 'org.slk.test.AddPatientNameTest')
+data.setCell(2, 3, 27026);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validCredintailsTest1')
-data.setCell(3, 2, 'org.slk.test.LoginTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'patientRegName')
+data.setCell(3, 2, 'org.slk.test.AddPatientNameTest')
+data.setCell(3, 3, 25465);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validCredintailsTest')
-data.setCell(4, 2, 'org.slk.test.LoginTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'patientRegName')
+data.setCell(4, 2, 'org.slk.test.AddPatientNameTest')
+data.setCell(4, 3, 25434);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'searchPatientName')
 data.setCell(5, 2, 'org.slk.test.SearchPatientNameTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 3, 18338);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'invalidCredintailsTest')
-data.setCell(6, 2, 'org.slk.test.LoginTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'searchPatientName')
+data.setCell(6, 2, 'org.slk.test.SearchPatientNameTest')
+data.setCell(6, 3, 17816);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validCredintailsTest1')
+data.setCell(7, 1, 'validCredintailsTest')
 data.setCell(7, 2, 'org.slk.test.LoginTest')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 3250);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validCredintailsTest1')
+data.setCell(8, 1, 'validCredintailsTest')
 data.setCell(8, 2, 'org.slk.test.LoginTest')
-data.setCell(8, 3, 0);
+data.setCell(8, 3, 3229);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validCredintailsTest')
+data.setCell(9, 2, 'org.slk.test.LoginTest')
+data.setCell(9, 3, 2943);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validCredintailsTest1')
+data.setCell(10, 2, 'org.slk.test.LoginTest')
+data.setCell(10, 3, 2896);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validCredintailsTest1')
+data.setCell(11, 2, 'org.slk.test.LoginTest')
+data.setCell(11, 3, 2887);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validCredintailsTest1')
+data.setCell(12, 2, 'org.slk.test.LoginTest')
+data.setCell(12, 3, 2854);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validCredintailsTest1')
+data.setCell(13, 2, 'org.slk.test.LoginTest')
+data.setCell(13, 3, 2819);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validCredintailsTest')
+data.setCell(14, 2, 'org.slk.test.LoginTest')
+data.setCell(14, 3, 2790);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validCredintailsTest')
+data.setCell(15, 2, 'org.slk.test.LoginTest')
+data.setCell(15, 3, 2706);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validCredintailsTest1')
+data.setCell(16, 2, 'org.slk.test.LoginTest')
+data.setCell(16, 3, 2688);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'invalidCredintailsTest')
+data.setCell(17, 2, 'org.slk.test.LoginTest')
+data.setCell(17, 3, 1604);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidCredintailsTest')
+data.setCell(18, 2, 'org.slk.test.LoginTest')
+data.setCell(18, 3, 1550);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'invalidCredintailsTest')
+data.setCell(19, 2, 'org.slk.test.LoginTest')
+data.setCell(19, 3, 1525);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'invalidCredintailsTest')
+data.setCell(20, 2, 'org.slk.test.LoginTest')
+data.setCell(20, 3, 1507);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'invalidCredintailsTest')
+data.setCell(21, 2, 'org.slk.test.LoginTest')
+data.setCell(21, 3, 1464);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -509,68 +645,278 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.slk.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.slk.test.AddPatientNameTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp(ch)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validCredintailsTest1(admin, pass)</span>
-                <span class="method-start">37607 ms</span>
+                <span class="method-name">patientRegName(admin, pass, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical Record Das...)</span>
+                <span class="method-start">11517 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37618 ms</span>
+                <span class="method-start">38618 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">37621 ms</span>
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">39355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">patientRegName(physician, physician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)</span>
+                <span class="method-start">46722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">74449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">patientRegName(clinician, clinician, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical R...)</span>
+                <span class="method-start">81928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">109770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">patientRegName(accountant, accountant, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Medical...)</span>
+                <span class="method-start">116888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142353 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">143037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">patientRegName(receptionist, receptionist, Default - English (Standard), Mr., HelloHai, Test, 28/08/2020, Male, Med...)</span>
+                <span class="method-start">150252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">175686 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.slk.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">176387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredintailsTest1(admin, pass)</span>
+                <span class="method-start">183592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">186484 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validCredintailsTest1(physician, physician)</span>
-                <span class="method-start">37622 ms</span>
+                <span class="method-start">193556 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37623 ms</span>
+                <span class="method-start">196376 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">37624 ms</span>
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">196377 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validCredintailsTest1(clinician, clinician)</span>
-                <span class="method-start">37624 ms</span>
+                <span class="method-start">203828 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37625 ms</span>
+                <span class="method-start">206725 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">37625 ms</span>
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">206726 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validCredintailsTest1(accountant, accountant)</span>
-                <span class="method-start">37625 ms</span>
+                <span class="method-start">213803 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37626 ms</span>
+                <span class="method-start">216658 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">37626 ms</span>
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">216659 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validCredintailsTest1(receptionist, receptionist)</span>
-                <span class="method-start">37627 ms</span>
+                <span class="method-start">223925 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37627 ms</span>
+                <span class="method-start">226614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">226712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidCredintailsTest(admin, pass123, Default - English (Standard), Invalid username or password)</span>
+                <span class="method-start">233967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">235517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">235519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidCredintailsTest(jon, pass123, Default - English (Standard), Invalid username or password)</span>
+                <span class="method-start">242768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">244373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">244374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidCredintailsTest(david, hello1, Default - English (Standard), Invalid username or password)</span>
+                <span class="method-start">251602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">253110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">253112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidCredintailsTest(testq, hai123, Default - English (Standard), Invalid username or password)</span>
+                <span class="method-start">260338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">261864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">261865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidCredintailsTest(selenium, hai123, Default - English (Standard), Invalid username or password)</span>
+                <span class="method-start">269080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">270545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">270617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredintailsTest(admin, pass, Default - English (Standard), OpenEMR)</span>
+                <span class="method-start">278014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">280805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">280807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredintailsTest(physician, physician, Default - English (Standard), OpenEMR)</span>
+                <span class="method-start">287910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">291140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">291141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredintailsTest(clinician, clinician, Default - English (Standard), OpenEMR)</span>
+                <span class="method-start">298375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">301318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">301320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredintailsTest(accountant, accountant, Default - English (Standard), OpenEMR)</span>
+                <span class="method-start">308591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">311841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">311843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredintailsTest(receptionist, receptionist, Default - English (Standard), OpenEMR)</span>
+                <span class="method-start">318973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">321680 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.slk.test.SearchPatientNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">321758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchPatientName(admin, pass, Default - English (Standard), Medical Record Dashboard - Phil Belford)</span>
+                <span class="method-start">328990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">347329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">347331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchPatientName(physician, physician, Default - English (Standard), Medical Record Dashboard - Phil Belford)</span>
+                <span class="method-start">354578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">372402 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -72,7 +72,7 @@ public class SearchorAddPatientPage {
 	{
 		driver.findElement(confirmpatientButtonLoc).click();
 	
-	}
+	} 
 	
 	public static void waitAlerts(WebDriver driver)
 	{

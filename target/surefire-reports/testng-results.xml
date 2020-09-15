@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="9" failed="0" ignored="0" total="9" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="22" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="37697" started-at="2020-09-10T17:08:59 EDT" finished-at="2020-09-10T17:09:37 EDT">
+  <suite name="Command line suite" duration-ms="374046" started-at="2020-09-10T17:58:10 EDT" finished-at="2020-09-10T18:04:24 EDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="37697" started-at="2020-09-10T17:08:59 EDT" finished-at="2020-09-10T17:09:37 EDT">
+    <test name="Command line test" duration-ms="374046" started-at="2020-09-10T17:58:10 EDT" finished-at="2020-09-10T18:04:24 EDT">
       <class name="org.slk.test.LoginTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="37596" started-at="2020-09-10T17:08:59 EDT" finished-at="2020-09-10T17:09:37 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7205" started-at="2020-09-10T18:01:08 EDT" finished-at="2020-09-10T18:01:15 EDT">
           <params>
             <param index="0">
               <value>
@@ -15,85 +15,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="validInputData" finished-at="2020-09-10T17:09:37 EDT">
+        <test-method status="PASS" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="2887" started-at="2020-09-10T18:01:15 EDT" data-provider="validInputData" finished-at="2020-09-10T18:01:18 EDT">
           <params>
             <param index="0">
               <value>
@@ -106,93 +31,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredintailsTest1 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="-1599772177179" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-09-10T18:01:18 EDT" finished-at="2020-09-10T18:01:18 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="-1599772177182" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7072" started-at="2020-09-10T18:01:18 EDT" finished-at="2020-09-10T18:01:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="validInputData" finished-at="2020-09-10T17:09:37 EDT">
+        <test-method status="PASS" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="2819" started-at="2020-09-10T18:01:25 EDT" data-provider="validInputData" finished-at="2020-09-10T18:01:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -205,93 +62,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredintailsTest1 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="-1599772177184" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:01:28 EDT" finished-at="2020-09-10T18:01:28 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="-1599772177185" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7451" started-at="2020-09-10T18:01:28 EDT" finished-at="2020-09-10T18:01:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="validInputData" finished-at="2020-09-10T17:09:37 EDT">
+        <test-method status="PASS" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="2896" started-at="2020-09-10T18:01:35 EDT" data-provider="validInputData" finished-at="2020-09-10T18:01:38 EDT">
           <params>
             <param index="0">
               <value>
@@ -304,85 +93,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredintailsTest1 -->
-        <test-method status="SKIP" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="validInputData" finished-at="2020-09-10T17:09:37 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:01:38 EDT" finished-at="2020-09-10T18:01:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7077" started-at="2020-09-10T18:01:38 EDT" finished-at="2020-09-10T18:01:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="2854" started-at="2020-09-10T18:01:45 EDT" data-provider="validInputData" finished-at="2020-09-10T18:01:48 EDT">
           <params>
             <param index="0">
               <value>
@@ -395,105 +124,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredintailsTest1 -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="-1599772177186" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:01:48 EDT" finished-at="2020-09-10T18:01:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7266" started-at="2020-09-10T18:01:48 EDT" finished-at="2020-09-10T18:01:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="-1599772177186" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="-1599772177187" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="-1599772177187" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="-1599772177188" started-at="2020-09-10T17:09:37 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="validInputData" finished-at="2020-09-10T17:09:37 EDT">
+        <test-method status="PASS" signature="validCredintailsTest1(java.lang.String, java.lang.String)[pri:1, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest1" duration-ms="2688" started-at="2020-09-10T18:01:55 EDT" data-provider="validInputData" finished-at="2020-09-10T18:01:58 EDT">
           <params>
             <param index="0">
               <value>
@@ -506,294 +155,560 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c2a270bb4ea2b0e4687b7c2660bff214
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
-at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredintailsTest1 -->
-        <test-method status="SKIP" signature="invalidCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.slk.test.LoginTest@13a5fe33]" name="invalidCredintailsTest" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="invalidCredintailsData" finished-at="2020-09-10T17:09:37 EDT">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(FileInputStream.java:195)
-at java.io.FileInputStream.<init>(FileInputStream.java:138)
-at java.io.FileInputStream.<init>(FileInputStream.java:93)
-at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-at org.slk.test.LoginTest.invalidCredintailsData(LoginTest.java:82)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:01:58 EDT" finished-at="2020-09-10T18:01:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7255" started-at="2020-09-10T18:01:58 EDT" finished-at="2020-09-10T18:02:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.slk.test.LoginTest@13a5fe33]" name="invalidCredintailsTest" duration-ms="1550" started-at="2020-09-10T18:02:05 EDT" data-provider="invalidCredintailsData" finished-at="2020-09-10T18:02:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidCredintailsTest -->
-        <test-method status="SKIP" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:09:37 EDT">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(FileInputStream.java:195)
-at java.io.FileInputStream.<init>(FileInputStream.java:138)
-at java.io.FileInputStream.<init>(FileInputStream.java:93)
-at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-at org.slk.test.LoginTest.validCredintailsData(LoginTest.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:02:07 EDT" finished-at="2020-09-10T18:02:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7249" started-at="2020-09-10T18:02:07 EDT" finished-at="2020-09-10T18:02:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.slk.test.LoginTest@13a5fe33]" name="invalidCredintailsTest" duration-ms="1604" started-at="2020-09-10T18:02:14 EDT" data-provider="invalidCredintailsData" finished-at="2020-09-10T18:02:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:02:16 EDT" finished-at="2020-09-10T18:02:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7228" started-at="2020-09-10T18:02:16 EDT" finished-at="2020-09-10T18:02:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.slk.test.LoginTest@13a5fe33]" name="invalidCredintailsTest" duration-ms="1507" started-at="2020-09-10T18:02:23 EDT" data-provider="invalidCredintailsData" finished-at="2020-09-10T18:02:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[david]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:02:24 EDT" finished-at="2020-09-10T18:02:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7226" started-at="2020-09-10T18:02:24 EDT" finished-at="2020-09-10T18:02:32 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.slk.test.LoginTest@13a5fe33]" name="invalidCredintailsTest" duration-ms="1525" started-at="2020-09-10T18:02:32 EDT" data-provider="invalidCredintailsData" finished-at="2020-09-10T18:02:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hai123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:02:33 EDT" finished-at="2020-09-10T18:02:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7215" started-at="2020-09-10T18:02:33 EDT" finished-at="2020-09-10T18:02:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.slk.test.LoginTest@13a5fe33]" name="invalidCredintailsTest" duration-ms="1464" started-at="2020-09-10T18:02:40 EDT" data-provider="invalidCredintailsData" finished-at="2020-09-10T18:02:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hai123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:02:42 EDT" finished-at="2020-09-10T18:02:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7397" started-at="2020-09-10T18:02:42 EDT" finished-at="2020-09-10T18:02:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest" duration-ms="2790" started-at="2020-09-10T18:02:49 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T18:02:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:02:52 EDT" finished-at="2020-09-10T18:02:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7102" started-at="2020-09-10T18:02:52 EDT" finished-at="2020-09-10T18:02:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest" duration-ms="3229" started-at="2020-09-10T18:02:59 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T18:03:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:03:02 EDT" finished-at="2020-09-10T18:03:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7234" started-at="2020-09-10T18:03:02 EDT" finished-at="2020-09-10T18:03:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest" duration-ms="2943" started-at="2020-09-10T18:03:10 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T18:03:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clinician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[clinician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:03:13 EDT" finished-at="2020-09-10T18:03:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7271" started-at="2020-09-10T18:03:13 EDT" finished-at="2020-09-10T18:03:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest" duration-ms="3250" started-at="2020-09-10T18:03:20 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T18:03:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:03:23 EDT" finished-at="2020-09-10T18:03:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="setUp" is-config="true" duration-ms="7129" started-at="2020-09-10T18:03:23 EDT" finished-at="2020-09-10T18:03:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@13a5fe33]" name="validCredintailsTest" duration-ms="2706" started-at="2020-09-10T18:03:30 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T18:03:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[receptionist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[receptionist]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredintailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-10T18:03:33 EDT" finished-at="2020-09-10T18:03:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- org.slk.test.LoginTest -->
       <class name="org.slk.test.SearchPatientNameTest">
-        <test-method status="SKIP" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="searchPatientName" duration-ms="0" started-at="2020-09-10T17:09:37 EDT" data-provider="searchPatientData" finished-at="2020-09-10T17:09:37 EDT">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(FileInputStream.java:195)
-at java.io.FileInputStream.<init>(FileInputStream.java:138)
-at java.io.FileInputStream.<init>(FileInputStream.java:93)
-at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-at org.slk.test.SearchPatientNameTest.searchPatientData(SearchPatientNameTest.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="setUp" is-config="true" duration-ms="7232" started-at="2020-09-10T18:03:33 EDT" finished-at="2020-09-10T18:03:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="searchPatientName" duration-ms="18338" started-at="2020-09-10T18:03:40 EDT" data-provider="searchPatientData" finished-at="2020-09-10T18:03:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPatientName -->
-      </class> <!-- org.slk.test.SearchPatientNameTest -->
-      <class name="org.slk.test.AddPatientNameTest">
-        <test-method status="SKIP" signature="patientRegName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="patientRegName" duration-ms="0" started-at="2020-09-10T17:08:59 EDT" data-provider="patientRegData" finished-at="2020-09-10T17:08:59 EDT">
-          <exception class="java.lang.RuntimeException">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T18:03:59 EDT" finished-at="2020-09-10T18:03:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="setUp" is-config="true" duration-ms="7247" started-at="2020-09-10T18:03:59 EDT" finished-at="2020-09-10T18:04:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="searchPatientName" duration-ms="17816" started-at="2020-09-10T18:04:06 EDT" data-provider="searchPatientData" finished-at="2020-09-10T18:04:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[unexpected alert open: {Alert text : New Due Clinical Reminders
+
+Measurement: Blood Pressure
+Assessment: Tobacco
+
+(See the Clinical Reminders widget for more details)}
+  (Session info: chrome=85.0.4183.83): New Due Clinical Reminders
+
+Measurement: Blood Pressure
+Assessment: Tobacco
+
+(See the Clinical Reminders widget for more details)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d8e335d4e94bedd5e7f4b4de40a95a9
+*** Element info: {Using=xpath, value=(//iframe[@data-bind='location: $data, iframeName: $data.name, '])[3]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : New Due Clinical Reminders
+
+Measurement: Blood Pressure
+Assessment: Tobacco
+
+(See the Clinical Reminders widget for more details)}
+  (Session info: chrome=85.0.4183.83): New Due Clinical Reminders
+
+Measurement: Blood Pressure
+Assessment: Tobacco
+
+(See the Clinical Reminders widget for more details)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\jagad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d8e335d4e94bedd5e7f4b4de40a95a9
+*** Element info: {Using=xpath, value=(//iframe[@data-bind='location: $data, iframeName: $data.name, '])[3]}
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:127)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+at org.slk.pages.DashboardPage.switchToFinFrame(DashboardPage.java:44)
+at org.slk.test.SearchPatientNameTest.searchPatientName(SearchPatientNameTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -823,27 +738,348 @@ at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(Provide
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.io.FileNotFoundException: testdata\OpenEmrExcelSheet.xlsx (The system cannot find the path specified)
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(FileInputStream.java:195)
-at java.io.FileInputStream.<init>(FileInputStream.java:138)
-at java.io.FileInputStream.<init>(FileInputStream.java:93)
-at org.slk.utilities.ExcelUtilities.getSheetObjArray(ExcelUtilities.java:16)
-at org.slk.test.AddPatientNameTest.patientRegData(AddPatientNameTest.java:21)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 35 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPatientName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@3108bc]" name="tearDown" is-config="true" duration-ms="706" started-at="2020-09-10T18:04:24 EDT" finished-at="2020-09-10T18:04:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.slk.test.SearchPatientNameTest -->
+      <class name="org.slk.test.AddPatientNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="setUp" is-config="true" duration-ms="11516" started-at="2020-09-10T17:58:11 EDT" finished-at="2020-09-10T17:58:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="patientRegName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="patientRegName" duration-ms="27099" started-at="2020-09-10T17:58:23 EDT" data-provider="patientRegData" finished-at="2020-09-10T17:58:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HelloHai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[28/08/2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Medical Record Dashboard - HelloHai Test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patientRegName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="tearDown" is-config="true" duration-ms="737" started-at="2020-09-10T17:58:50 EDT" finished-at="2020-09-10T17:58:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="setUp" is-config="true" duration-ms="7367" started-at="2020-09-10T17:58:51 EDT" finished-at="2020-09-10T17:58:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="patientRegName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="patientRegName" duration-ms="27026" started-at="2020-09-10T17:58:58 EDT" data-provider="patientRegData" finished-at="2020-09-10T17:59:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HelloHai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[28/08/2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Medical Record Dashboard - HelloHai Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientRegName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="tearDown" is-config="true" duration-ms="699" started-at="2020-09-10T17:59:25 EDT" finished-at="2020-09-10T17:59:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="setUp" is-config="true" duration-ms="7479" started-at="2020-09-10T17:59:26 EDT" finished-at="2020-09-10T17:59:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="patientRegName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="patientRegName" duration-ms="27147" started-at="2020-09-10T17:59:33 EDT" data-provider="patientRegData" finished-at="2020-09-10T18:00:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clinician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[clinician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HelloHai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[28/08/2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Medical Record Dashboard - HelloHai Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientRegName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="tearDown" is-config="true" duration-ms="694" started-at="2020-09-10T18:00:00 EDT" finished-at="2020-09-10T18:00:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="setUp" is-config="true" duration-ms="7118" started-at="2020-09-10T18:00:01 EDT" finished-at="2020-09-10T18:00:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="patientRegName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="patientRegName" duration-ms="25465" started-at="2020-09-10T18:00:08 EDT" data-provider="patientRegData" finished-at="2020-09-10T18:00:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HelloHai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[28/08/2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Medical Record Dashboard - HelloHai Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientRegName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-09-10T18:00:34 EDT" finished-at="2020-09-10T18:00:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="setUp" is-config="true" duration-ms="7215" started-at="2020-09-10T18:00:34 EDT" finished-at="2020-09-10T18:00:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="patientRegName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="patientRegName" duration-ms="25434" started-at="2020-09-10T18:00:42 EDT" data-provider="patientRegData" finished-at="2020-09-10T18:01:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[receptionist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[receptionist]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HelloHai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[28/08/2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Medical Record Dashboard - HelloHai Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientRegName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.AddPatientNameTest@527740a2]" name="tearDown" is-config="true" duration-ms="692" started-at="2020-09-10T18:01:07 EDT" finished-at="2020-09-10T18:01:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- org.slk.test.AddPatientNameTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

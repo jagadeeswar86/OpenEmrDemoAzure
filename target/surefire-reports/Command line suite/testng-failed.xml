@@ -7,25 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="searchPatientName"/>
+          <include name="searchPatientName" invocation-numbers="1"/>
         </methods>
       </class> <!-- org.slk.test.SearchPatientNameTest -->
-      <class name="org.slk.test.AddPatientNameTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="patientRegName"/>
-        </methods>
-      </class> <!-- org.slk.test.AddPatientNameTest -->
-      <class name="org.slk.test.LoginTest">
-        <methods>
-          <include name="invalidCredintailsTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validCredintailsTest"/>
-          <include name="validCredintailsTest1"/>
-        </methods>
-      </class> <!-- org.slk.test.LoginTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
