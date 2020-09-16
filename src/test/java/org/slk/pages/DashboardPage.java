@@ -54,12 +54,9 @@ public class DashboardPage {
 		   
 			Thread.sleep(2000);
 			driver.findElement(addPatientLoc).click();
-			
-		
-	}
+			}
 	
-	
-	public static void clickNewSearch(WebDriver driver)
+		public static void clickNewSearch(WebDriver driver)
 	{
 		driver.findElement(clickNewSearchLoc).click();
 	}
