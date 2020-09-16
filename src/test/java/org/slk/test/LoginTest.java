@@ -54,6 +54,7 @@ public class LoginTest extends WebDriverWrapper{
 	{
 		Object[][] main=ExcelUtilities.getSheetObjArray("testdata/OpenEmrExcelSheet.xlsx", "validCredintailsTest");
 		return main;
+		
 	}
 	
 	
@@ -64,7 +65,6 @@ public class LoginTest extends WebDriverWrapper{
 		LoginPage.sendPassword(driver, password);
 		LoginPage.selectLanguage(driver, language);  
 		LoginPage.submitButton(driver);
-		
 		
 		DashboardPage.waitFlowBoard(driver);
       
