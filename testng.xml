@@ -7,14 +7,14 @@
 		<classes>
 			<class name="org.slk.test.LoginTest" />
 		</classes>
-	</test> <!-- Test -->
-	<test thread-count="5" name=" Login Test ie">
+	</test>
+	 <!--<test thread-count="5" name=" Login Test ie">
 		<parameter name="browser" value="ie"></parameter>
 		<classes>
 			<class name="org.slk.test.LoginTest" />
 
 		</classes>
-	</test> <!-- Test -->
+	</test>-->
 
 
 	<test thread-count="5" name=" Login Test ff">
