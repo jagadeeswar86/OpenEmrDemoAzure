@@ -33,7 +33,7 @@ public class SearchPatientNameTest extends WebDriverWrapper {
 		DashboardPage.clickNewSearch(driver);
 
 		DashboardPage.switchToFinFrame(driver);
-		// SearchorAddPatientPage.iFrame3(driver);
+		
 		SearchorAddPatientPage.searchButton(driver);
 		DashboardPage.closeFrame(driver);
 
