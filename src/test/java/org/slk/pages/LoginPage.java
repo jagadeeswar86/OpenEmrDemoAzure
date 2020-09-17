@@ -16,8 +16,7 @@ public class LoginPage {
 	{
 		driver.findElement(userNameLoc).sendKeys(username);
 	}
-	
-	
+		
 	public static void sendPassword(WebDriver driver,String password)
 	{
 	   driver.findElement(passwordLoc).sendKeys(password);
