@@ -46,7 +46,6 @@ public class LoginTest extends WebDriverWrapper{
 		String textmessage=DashboardPage.textMessage(driver);
 	    
 	     Assert.assertEquals(textmessage, "OpenEMR");
-	     driver.quit();
 	}
 	
 	@DataProvider
@@ -72,7 +71,6 @@ public class LoginTest extends WebDriverWrapper{
 		String textmessage=DashboardPage.textMessage(driver);
 	    
 	     Assert.assertEquals(textmessage, expectedvalue);
-	     driver.quit();
 	}
 	
 	
@@ -99,7 +97,7 @@ public class LoginTest extends WebDriverWrapper{
 
 		// expected value is true
 		// Assert.assertTrue(errormessage.contains("Invalid username or password"));
-		driver.quit();
+		//driver.quit();
 	}
 
 }

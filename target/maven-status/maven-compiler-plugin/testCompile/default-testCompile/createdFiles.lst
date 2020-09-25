@@ -1,5 +1,7 @@
 org\slk\pages\SearchorAddPatientPage.class
+org\slk\pages\AddAdminUserPage.class
 org\slk\base\WebDriverWrapper.class
+org\slk\test\AddAdminUser.class
 org\slk\test\LoginTest.class
 org\slk\test\PDemo.class
 org\slk\test\AddPatientNameTest.class

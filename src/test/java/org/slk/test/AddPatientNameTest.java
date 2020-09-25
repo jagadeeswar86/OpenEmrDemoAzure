@@ -21,7 +21,7 @@ public class AddPatientNameTest extends WebDriverWrapper {
 		Object[][] main=ExcelUtilities.getSheetObjArray("testdata/OpenEmrExcelSheet.xlsx", "patientRegName");
 		return main;
 	}
-	@Test(dataProvider ="patientRegData")
+	@Test(priority =4,dataProvider ="patientRegData")
 	
 	public void patientRegName(String username,String password,String language
 			,String title,String fName,String lName,String dobirth,String gender,String expectedvalue) throws InterruptedException {
