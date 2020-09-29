@@ -20,7 +20,7 @@ public class SearchPatientNameTest extends WebDriverWrapper {
 		return main;
 	}
 
-	@Test(dataProvider = "searchPatientData")
+	@Test(priority =5,dataProvider = "searchPatientData")
 	public void searchPatientName(String username, String password, String language, String expectedvalue)
 			throws InterruptedException {
 
@@ -50,7 +50,7 @@ public class SearchPatientNameTest extends WebDriverWrapper {
 		System.out.println(textmessage);
 		DashboardPage.closeFrame(driver);
 
-		driver.quit();
+		
 		// https://www.open-emr.org/demo/
 	}
 

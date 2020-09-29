@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OpenEmdDemo]">
+  <test thread-count="5" name=" Login Test ie(failed)">
+    <parameter name="node" value="http://10.3.46.214:44990/wd/hub"/>
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="org.slk.test.SearchPatientNameTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="searchPatientName"/>
+        </methods>
+      </class> <!-- org.slk.test.SearchPatientNameTest -->
+    </classes>
+  </test> <!--  Login Test ie(failed) -->
+</suite> <!-- Failed suite [OpenEmdDemo] -->

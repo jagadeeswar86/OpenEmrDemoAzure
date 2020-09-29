@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+<testng-results skipped="2" failed="0" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52248" started-at="2020-09-10T17:20:08 EDT" finished-at="2020-09-10T17:21:00 EDT">
+  <suite name="OpenEmdDemo" duration-ms="110268" started-at="2020-09-29T15:22:08 EDT" finished-at="2020-09-29T15:23:58 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52248" started-at="2020-09-10T17:20:08 EDT" finished-at="2020-09-10T17:21:00 EDT">
-      <class name="org.slk.test.LoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="8642" started-at="2020-09-10T17:20:09 EDT" finished-at="2020-09-10T17:20:17 EDT">
+    <test name=" Login Test ch" duration-ms="55017" started-at="2020-09-29T15:22:08 EDT" finished-at="2020-09-29T15:23:03 EDT">
+      <class name="org.slk.test.SearchPatientNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@74650e52]" name="setUp" is-config="true" duration-ms="8517" started-at="2020-09-29T15:22:08 EDT" finished-at="2020-09-29T15:22:17 EDT">
           <params>
             <param index="0">
               <value>
                 <![CDATA[ch]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.3.46.214:44990/wd/hub]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="3539" started-at="2020-09-10T17:20:17 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:21 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@74650e52]" name="searchPatientName" duration-ms="18540" started-at="2020-09-29T15:22:17 EDT" data-provider="searchPatientData" finished-at="2020-09-29T15:22:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -37,29 +42,34 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[OpenEMR]]>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredintailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-09-10T17:20:21 EDT" finished-at="2020-09-10T17:20:21 EDT">
+        </test-method> <!-- searchPatientName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@74650e52]" name="tearDown" is-config="true" duration-ms="498" started-at="2020-09-29T15:22:36 EDT" finished-at="2020-09-29T15:22:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="6917" started-at="2020-09-10T17:20:21 EDT" finished-at="2020-09-10T17:20:28 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@74650e52]" name="setUp" is-config="true" duration-ms="7316" started-at="2020-09-29T15:22:36 EDT" finished-at="2020-09-29T15:22:43 EDT">
           <params>
             <param index="0">
               <value>
                 <![CDATA[ch]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.3.46.214:44990/wd/hub]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2999" started-at="2020-09-10T17:20:28 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:31 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@74650e52]" name="searchPatientName" duration-ms="18760" started-at="2020-09-29T15:22:43 EDT" data-provider="searchPatientData" finished-at="2020-09-29T15:23:02 EDT">
           <params>
             <param index="0">
               <value>
@@ -78,38 +88,47 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[OpenEMR]]>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredintailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T17:20:31 EDT" finished-at="2020-09-10T17:20:31 EDT">
+        </test-method> <!-- searchPatientName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@74650e52]" name="tearDown" is-config="true" duration-ms="461" started-at="2020-09-29T15:23:02 EDT" finished-at="2020-09-29T15:23:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="7108" started-at="2020-09-10T17:20:31 EDT" finished-at="2020-09-10T17:20:38 EDT">
+      </class> <!-- org.slk.test.SearchPatientNameTest -->
+    </test> <!--  Login Test ch -->
+    <test name=" Login Test ff" duration-ms="55102" started-at="2020-09-29T15:23:03 EDT" finished-at="2020-09-29T15:23:58 EDT">
+      <class name="org.slk.test.SearchPatientNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@80503]" name="setUp" is-config="true" duration-ms="6986" started-at="2020-09-29T15:23:03 EDT" finished-at="2020-09-29T15:23:10 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ch]]>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.3.46.214:44990/wd/hub]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2866" started-at="2020-09-10T17:20:38 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:41 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@80503]" name="searchPatientName" duration-ms="19025" started-at="2020-09-29T15:23:10 EDT" data-provider="searchPatientData" finished-at="2020-09-29T15:23:29 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[clinician]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[clinician]]>
+                <![CDATA[pass]]>
               </value>
             </param>
             <param index="2">
@@ -119,38 +138,43 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[OpenEMR]]>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredintailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T17:20:41 EDT" finished-at="2020-09-10T17:20:41 EDT">
+        </test-method> <!-- searchPatientName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@80503]" name="tearDown" is-config="true" duration-ms="1371" started-at="2020-09-29T15:23:29 EDT" finished-at="2020-09-29T15:23:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="6816" started-at="2020-09-10T17:20:41 EDT" finished-at="2020-09-10T17:20:47 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@80503]" name="setUp" is-config="true" duration-ms="7231" started-at="2020-09-29T15:23:30 EDT" finished-at="2020-09-29T15:23:37 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ch]]>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.3.46.214:44990/wd/hub]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2723" started-at="2020-09-10T17:20:47 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:20:50 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@80503]" name="searchPatientName" duration-ms="19022" started-at="2020-09-29T15:23:37 EDT" data-provider="searchPatientData" finished-at="2020-09-29T15:23:56 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[accountant]]>
+                <![CDATA[physician]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[accountant]]>
+                <![CDATA[physician]]>
               </value>
             </param>
             <param index="2">
@@ -160,38 +184,174 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[OpenEMR]]>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredintailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-09-10T17:20:50 EDT" finished-at="2020-09-10T17:20:50 EDT">
+        </test-method> <!-- searchPatientName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@80503]" name="tearDown" is-config="true" duration-ms="1360" started-at="2020-09-29T15:23:56 EDT" finished-at="2020-09-29T15:23:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="6764" started-at="2020-09-10T17:20:50 EDT" finished-at="2020-09-10T17:20:57 EDT">
+      </class> <!-- org.slk.test.SearchPatientNameTest -->
+    </test> <!--  Login Test ff -->
+    <test name=" Login Test ie" duration-ms="116" started-at="2020-09-29T15:23:58 EDT" finished-at="2020-09-29T15:23:58 EDT">
+      <class name="org.slk.test.SearchPatientNameTest">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@2a742aa2]" name="setUp" is-config="true" duration-ms="24" started-at="2020-09-29T15:23:58 EDT" finished-at="2020-09-29T15:23:58 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ch]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validCredintailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.slk.test.LoginTest@1d8d30f7]" name="validCredintailsTest" duration-ms="2856" started-at="2020-09-10T17:20:57 EDT" data-provider="validCredintailsData" finished-at="2020-09-10T17:21:00 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[receptionist]]>
+                <![CDATA[ie]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[receptionist]]>
+                <![CDATA[http://10.3.46.214:44990/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Command duration or timeout: 9 milliseconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Command duration or timeout: 9 milliseconds
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$4(NewSessionPipeline.java:76)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$5(NewSessionPipeline.java:75)
+at java.util.Optional.orElseGet(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:73)
+at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@2a742aa2]" name="searchPatientName" duration-ms="0" started-at="2020-09-29T15:23:58 EDT" data-provider="searchPatientData" finished-at="2020-09-29T15:23:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
               </value>
             </param>
             <param index="2">
@@ -201,18 +361,306 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[OpenEMR]]>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Command duration or timeout: 9 milliseconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Command duration or timeout: 9 milliseconds
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$4(NewSessionPipeline.java:76)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$5(NewSessionPipeline.java:75)
+at java.util.Optional.orElseGet(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:73)
+at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredintailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.LoginTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-10T17:21:00 EDT" finished-at="2020-09-10T17:21:00 EDT">
+        </test-method> <!-- searchPatientName -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="-1601407438296" started-at="2020-09-29T15:23:58 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.slk.test.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@2a742aa2]" name="setUp" is-config="true" duration-ms="-1601407438298" started-at="2020-09-29T15:23:58 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@2a742aa2]" name="searchPatientName" duration-ms="0" started-at="2020-09-29T15:23:58 EDT" data-provider="searchPatientData" finished-at="2020-09-29T15:23:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default - English (Standard)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Medical Record Dashboard - Phil Belford]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Command duration or timeout: 9 milliseconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Command duration or timeout: 9 milliseconds
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.slk.base.WebDriverWrapper.setUp(WebDriverWrapper.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create session from {
+  "desiredCapabilities": {
+    "browserName": "ie"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "ie"
+      }
+    ]
+  }
+}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VQ71OE6S', ip: '10.3.46.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$4(NewSessionPipeline.java:76)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$5(NewSessionPipeline.java:75)
+at java.util.Optional.orElseGet(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:73)
+at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPatientName -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="-1601407438305" started-at="2020-09-29T15:23:58 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.slk.test.SearchPatientNameTest -->
+    </test> <!--  Login Test ie -->
+  </suite> <!-- OpenEmdDemo -->
 </testng-results>

@@ -25,6 +25,7 @@ public class DashboardPage {
 	public static String textMessage(WebDriver driver)
 	{
 		return driver.getTitle();
+		
 	}
 	
 	public static void mouseOverOnPatientClient(WebDriver driver)
