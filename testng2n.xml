@@ -14,21 +14,14 @@
 		</classes>
 	</test>
 	
- 
- 
-
-	<test thread-count="5" name=" Login Test ff">
-		
+  	<test thread-count="5" name=" Login Test ff">
 		<parameter name="browser" value="ff"></parameter>
-
 		<parameter name="node"
 			value="http://10.3.46.214:44990/wd/hub"></parameter>
-
 			<classes>
 			<!-- <class name="org.slk.test.LoginTest" />-->
 			<class name="org.slk.test.SearchPatientNameTest" />
 		</classes>
-
 	</test>
 	
 	<test thread-count="5" name=" Login Test ie">
