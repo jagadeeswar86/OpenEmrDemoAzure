@@ -1,8 +1,10 @@
 package org.slk.base;
 
 import java.io.File;
+
 import java.net.MalformedURLException;
 import java.net.URL;
+
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -23,6 +25,7 @@ import org.testng.annotations.Parameters;
 public class WebDriverWrapper {
 
 	protected WebDriver driver;
+
 
 	@Parameters({ "browser", "node" })  //, "node" //@Optional("ch") 
 	@BeforeMethod
@@ -55,6 +58,7 @@ public class WebDriverWrapper {
 			
 		} else {
 
+	
 			if (browserName.equals("ch")) {
 				System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 				driver = new ChromeDriver();
@@ -67,14 +71,22 @@ public class WebDriverWrapper {
 				driver = new InternetExplorerDriver();
 
 			}
+
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://demo.openemr.io/b/openemr/interface/login/login.php?site=default");
 		            
-		            
+		       
 
 		
+
+		
+     driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("https://demo.openemr.io/a/openemr/interface/login/login.php?site=default");
+
+
 	}
 
 	@AfterMethod
@@ -86,24 +98,15 @@ public class WebDriverWrapper {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 
 		File file = ts.getScreenshotAs(OutputType.FILE);
-		
+
 			
+
 		file.renameTo(new File("ScreenShots/scroonshot-" + date + " .jpg"));
 		
 		driver.quit();
 		
-//		public void captureScreen(WebDriver driver, String tname) throws IOException {
-//			//TakesScreenshot ts = (TakesScreenshot) driver;
-//			File source = ts.getScreenshotAs(OutputType.FILE);
-//			File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
-//			FileUtils.copyFile(source, target);
-//			System.out.println("Screenshot taken");
-//		
-//File target = new File("ScreenShots/scroonshot-" + date + " .jpg");
-//		
-//		
-//		FileUtils.copyFile(source, target);
-//	
+
+
 		}
 
 }
