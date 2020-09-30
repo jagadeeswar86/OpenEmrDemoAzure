@@ -12,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
@@ -43,9 +45,9 @@ public class WebDriverWrapper {
 				
 
 			} else {
-				//dc.setCapability(CapabilityType.BROWSER_NAME, BrowserType.IE);
+				dc.setCapability(CapabilityType.BROWSER_NAME, BrowserType.IE);
 			
-				dc.setCapability("browserName", "ie");
+				//dc.setCapability("browserName", "ie");
 
 			}
 			
