@@ -27,7 +27,7 @@ public class WebDriverWrapper {
 	protected WebDriver driver;
 
 
-	@Parameters({ "browser", "node" })  //, "node" //@Optional("ch") 
+	@Parameters({ "browser", "node"})  //, "node" //@Optional("ch") ,String node
 	@BeforeMethod
 	public void setUp(String browserName,String node) throws MalformedURLException {
 		
