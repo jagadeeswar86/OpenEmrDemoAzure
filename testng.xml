@@ -7,7 +7,7 @@
 	<test thread-count="5" name=" Login Test ch">
 		<parameter name="browser" value="ch"></parameter>
 		<parameter name="node"
-			value="http://18.220.239.149:4444/wd/hub"></parameter>
+			value="http://52.14.164.3:4444/wd/hub"></parameter>
 		<classes>
 			<!-- <class name="org.slk.test.LoginTest" />-->
 			<class name="org.slk.test.SearchPatientNameTest" />
@@ -17,7 +17,7 @@
   	<test thread-count="5" name=" Login Test ff">
 		<parameter name="browser" value="ff"></parameter>
 		<parameter name="node"
-			value="http://18.220.239.149:4444/wd/hub"></parameter>
+			value="http://52.14.164.3:4444/wd/hub"></parameter>
 			<classes>
 			<!-- <class name="org.slk.test.LoginTest" />-->
 			<class name="org.slk.test.SearchPatientNameTest" />

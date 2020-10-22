@@ -1,13 +1,15 @@
 package org.slk.base;
 
 import java.io.File;
+import java.io.IOException;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +20,7 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.slk.utilities.PropUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -25,11 +28,14 @@ import org.testng.annotations.Parameters;
 public class WebDriverWrapper {
 
 	protected WebDriver driver;
-
-
+	public static Logger logger; // Added logger
+	
 	@Parameters({ "browser", "node"})  //, "node" //@Optional("ch") ,String node
 	@BeforeMethod
-	public void setUp(String browserName,String node) throws MalformedURLException {
+	public void setUp(String browserName,String node) throws IOException {
+		
+		logger = Logger.getLogger("OpenEmrDemo"); // Added logger name of the project  testcasename
+		PropertyConfigurator.configure("Log4j.properties");// Added logger
 		
 		//if (node != null && !(node.equalsIgnoreCase("no")))  @Optional("ie") @Optional("ch")
 			if (node != null) 
@@ -75,17 +81,24 @@ public class WebDriverWrapper {
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://demo.openemr.io/b/openemr/interface/login/login.php?site=default");
-		            
+		
+		String baseurl = PropUtils.getValueFromProperties("config.Properties", "url");
+
+		if (baseurl != null) {
+			driver.get(baseurl);
+		}else {
+
+			driver.get("https://demo.openemr.io/b/openemr/interface/login/login.php?site=default");
+		}        
 		       
 
 		
 
 		
-     driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://demo.openemr.io/a/openemr/interface/login/login.php?site=default");
-
+//     driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//		driver.get("https://demo.openemr.io/a/openemr/interface/login/login.php?site=default");
+//
 
 	}
 

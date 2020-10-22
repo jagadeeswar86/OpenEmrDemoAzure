@@ -30,7 +30,7 @@ public class AddPatientNameTest extends WebDriverWrapper {
 		LoginPage.sendPassword(driver, password);
 		LoginPage.selectLanguage(driver, language);
 		LoginPage.submitButton(driver);    // login
-
+		
 		DashboardPage.mouseOverOnPatientClient(driver);
 
 		DashboardPage.clickPatient(driver);
