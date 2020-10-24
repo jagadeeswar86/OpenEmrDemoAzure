@@ -23,11 +23,11 @@ public class WebDriverWrapper {
 	protected WebDriver driver;
 	public static Logger logger; 
 	
-	@Parameters({ "browser"})  
+	@Parameters({"browser"})  
 	@BeforeMethod
 	public void setUp(String browserName) throws IOException {
 		
-		logger = Logger.getLogger("OpenEmrDemo"); // Added logger name of the project  testcasename
+		logger = Logger.getLogger("OpenEmrDemoAzure"); // Added logger name of the project  testcasename
 		PropertyConfigurator.configure("Log4j.properties");// Added logger
 		
 		

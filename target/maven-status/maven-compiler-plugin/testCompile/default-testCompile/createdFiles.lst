@@ -8,4 +8,5 @@ org\slk\test\AddPatientNameTest.class
 org\slk\pages\DashboardPage.class
 org\slk\test\SearchPatientNameTest.class
 org\slk\utilities\ExcelUtilities.class
+org\slk\utilities\PropUtils.class
 org\slk\pages\LoginPage.class
