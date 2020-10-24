@@ -21,14 +21,14 @@ import org.testng.annotations.Parameters;
 public class WebDriverWrapper {
 
 	protected WebDriver driver;
-	public static Logger logger; 
+	//public static Logger logger; 
 	
 	@Parameters({"browser"})  
 	@BeforeMethod
 	public void setUp(String browserName) throws IOException {
 		
-		logger = Logger.getLogger("OpenEmrDemoAzure"); // Added logger name of the project  testcasename
-		PropertyConfigurator.configure("Log4j.properties");// Added logger
+		//logger = Logger.getLogger("OpenEmrDemoAzure"); // Added logger name of the project  testcasename
+		//PropertyConfigurator.configure("Log4j.properties");// Added logger
 		
 		
 			if (browserName.equals("ch")) {

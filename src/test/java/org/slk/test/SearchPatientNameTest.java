@@ -25,26 +25,26 @@ public class SearchPatientNameTest extends WebDriverWrapper {
 			throws InterruptedException {
 
 		LoginPage.sendUserName(driver, username);
-		logger.info("enter username");
+		
 		LoginPage.sendPassword(driver, password);
-		logger.info("enter password");
+		
 		LoginPage.selectLanguage(driver, language);
-		logger.info("enter language");
+		
 		LoginPage.submitButton(driver);
-		logger.info("enter submitbutton");
+		
 
 		DashboardPage.mouseOverOnPatientClient(driver);
-		logger.info("enter mouseover");
+		
 		DashboardPage.clickNewSearch(driver);
-		logger.info("click on search ling");
+		
 
 		DashboardPage.switchToFinFrame(driver);
-		logger.info("enter finframe");
+		
 		
 		SearchorAddPatientPage.searchButton(driver);
-		logger.info("search buttonenter username");
+		
 		DashboardPage.closeFrame(driver);
-		logger.info("close frame");
+		
 
 		SearchorAddPatientPage.modalIframe(driver);
 
