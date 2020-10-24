@@ -21,9 +21,9 @@ import org.testng.annotations.Parameters;
 public class WebDriverWrapper {
 
 	protected WebDriver driver;
-	public static Logger logger; // Added logger
+	public static Logger logger; 
 	
-	@Parameters({ "browser"})  //, "node" //@Optional("ch") ,String node
+	@Parameters({ "browser"})  
 	@BeforeMethod
 	public void setUp(String browserName) throws IOException {
 		
@@ -68,8 +68,6 @@ public class WebDriverWrapper {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 
 		File file = ts.getScreenshotAs(OutputType.FILE);
-
-			
 
 		file.renameTo(new File("ScreenShots/scroonshot-" + date + " .jpg"));
 		

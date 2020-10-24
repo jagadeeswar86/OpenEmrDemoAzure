@@ -8,7 +8,7 @@
 		<parameter name="browser" value="ch"></parameter>
 		
 		<classes>
-			<!-- <class name="org.slk.test.LoginTest" />-->
+			
 			<class name="org.slk.test.SearchPatientNameTest" />
 		</classes>
 	</test>
@@ -17,7 +17,7 @@
 		<parameter name="browser" value="ff"></parameter>
 		
 			<classes>
-			<!-- <class name="org.slk.test.LoginTest" />-->
+			
 			<class name="org.slk.test.SearchPatientNameTest" />
 		</classes>
 	</test>
