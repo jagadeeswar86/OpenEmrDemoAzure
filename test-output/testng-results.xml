@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="OpenEmdDemoAzure" duration-ms="108072" started-at="2020-10-24T19:41:14 EDT" finished-at="2020-10-24T19:43:02 EDT">
+  <suite name="OpenEmdDemoAzure" duration-ms="112458" started-at="2020-10-24T23:21:50 EDT" finished-at="2020-10-24T23:23:43 EDT">
     <groups>
     </groups>
-    <test name=" Login Test ch" duration-ms="54351" started-at="2020-10-24T19:41:14 EDT" finished-at="2020-10-24T19:42:09 EDT">
+    <test name=" Login Test ch" duration-ms="56629" started-at="2020-10-24T23:21:50 EDT" finished-at="2020-10-24T23:22:47 EDT">
       <class name="org.slk.test.SearchPatientNameTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@458c1321]" name="setUp" is-config="true" duration-ms="8405" started-at="2020-10-24T19:41:15 EDT" finished-at="2020-10-24T19:41:24 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@34c4973]" name="setUp" is-config="true" duration-ms="8532" started-at="2020-10-24T23:21:51 EDT" finished-at="2020-10-24T23:22:00 EDT">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@458c1321]" name="searchPatientName" duration-ms="18068" started-at="2020-10-24T19:41:24 EDT" data-provider="searchPatientData" finished-at="2020-10-24T19:41:42 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@34c4973]" name="searchPatientName" duration-ms="18788" started-at="2020-10-24T23:22:00 EDT" data-provider="searchPatientData" finished-at="2020-10-24T23:22:19 EDT">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPatientName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@458c1321]" name="tearDown" is-config="true" duration-ms="1053" started-at="2020-10-24T19:41:42 EDT" finished-at="2020-10-24T19:41:43 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@34c4973]" name="tearDown" is-config="true" duration-ms="1247" started-at="2020-10-24T23:22:19 EDT" finished-at="2020-10-24T23:22:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@458c1321]" name="setUp" is-config="true" duration-ms="6836" started-at="2020-10-24T19:41:43 EDT" finished-at="2020-10-24T19:41:50 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@34c4973]" name="setUp" is-config="true" duration-ms="7381" started-at="2020-10-24T23:22:20 EDT" finished-at="2020-10-24T23:22:27 EDT">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@458c1321]" name="searchPatientName" duration-ms="17855" started-at="2020-10-24T19:41:50 EDT" data-provider="searchPatientData" finished-at="2020-10-24T19:42:08 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@34c4973]" name="searchPatientName" duration-ms="18328" started-at="2020-10-24T23:22:27 EDT" data-provider="searchPatientData" finished-at="2020-10-24T23:22:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -85,15 +85,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPatientName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@458c1321]" name="tearDown" is-config="true" duration-ms="1060" started-at="2020-10-24T19:42:08 EDT" finished-at="2020-10-24T19:42:09 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@34c4973]" name="tearDown" is-config="true" duration-ms="1186" started-at="2020-10-24T23:22:46 EDT" finished-at="2020-10-24T23:22:47 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.slk.test.SearchPatientNameTest -->
     </test> <!--  Login Test ch -->
-    <test name=" Login Test ff" duration-ms="53662" started-at="2020-10-24T19:42:09 EDT" finished-at="2020-10-24T19:43:02 EDT">
+    <test name=" Login Test ff" duration-ms="55769" started-at="2020-10-24T23:22:47 EDT" finished-at="2020-10-24T23:23:43 EDT">
       <class name="org.slk.test.SearchPatientNameTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@fad74ee]" name="setUp" is-config="true" duration-ms="7208" started-at="2020-10-24T19:42:09 EDT" finished-at="2020-10-24T19:42:16 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@58c1670b]" name="setUp" is-config="true" duration-ms="7835" started-at="2020-10-24T23:22:47 EDT" finished-at="2020-10-24T23:22:55 EDT">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@fad74ee]" name="searchPatientName" duration-ms="18473" started-at="2020-10-24T19:42:16 EDT" data-provider="searchPatientData" finished-at="2020-10-24T19:42:35 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@58c1670b]" name="searchPatientName" duration-ms="19227" started-at="2020-10-24T23:22:55 EDT" data-provider="searchPatientData" finished-at="2020-10-24T23:23:14 EDT">
           <params>
             <param index="0">
               <value>
@@ -130,11 +130,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPatientName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@fad74ee]" name="tearDown" is-config="true" duration-ms="1085" started-at="2020-10-24T19:42:35 EDT" finished-at="2020-10-24T19:42:36 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@58c1670b]" name="tearDown" is-config="true" duration-ms="1481" started-at="2020-10-24T23:23:14 EDT" finished-at="2020-10-24T23:23:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@fad74ee]" name="setUp" is-config="true" duration-ms="7001" started-at="2020-10-24T19:42:36 EDT" finished-at="2020-10-24T19:42:43 EDT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.slk.test.SearchPatientNameTest@58c1670b]" name="setUp" is-config="true" duration-ms="7016" started-at="2020-10-24T23:23:15 EDT" finished-at="2020-10-24T23:23:22 EDT">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@fad74ee]" name="searchPatientName" duration-ms="18468" started-at="2020-10-24T19:42:43 EDT" data-provider="searchPatientData" finished-at="2020-10-24T19:43:01 EDT">
+        <test-method status="PASS" signature="searchPatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.slk.test.SearchPatientNameTest@58c1670b]" name="searchPatientName" duration-ms="18713" started-at="2020-10-24T23:23:22 EDT" data-provider="searchPatientData" finished-at="2020-10-24T23:23:41 EDT">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPatientName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@fad74ee]" name="tearDown" is-config="true" duration-ms="1351" started-at="2020-10-24T19:43:01 EDT" finished-at="2020-10-24T19:43:02 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.slk.test.SearchPatientNameTest@58c1670b]" name="tearDown" is-config="true" duration-ms="1422" started-at="2020-10-24T23:23:41 EDT" finished-at="2020-10-24T23:23:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

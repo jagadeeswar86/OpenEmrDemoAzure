@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-//import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +28,7 @@ public class WebDriverWrapper {
 	public void setUp(String browserName) throws IOException {
 		
 		logger = Logger.getLogger(WebDriverWrapper.class); // Added logger name of the project  testcasename
-		//PropertyConfigurator.configure("Log4j.properties");// Added logger
+		PropertyConfigurator.configure("Log4j.properties");// Added logger
 		
 		
 			if (browserName.equals("ch")) {
