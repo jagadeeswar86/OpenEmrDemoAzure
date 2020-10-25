@@ -27,8 +27,8 @@ public class WebDriverWrapper {
 	@BeforeMethod
 	public void setUp(String browserName) throws IOException {
 		
-		logger = Logger.getLogger(WebDriverWrapper.class); // Added logger name of the project  testcasename
-		PropertyConfigurator.configure("Log4j.properties");// Added logger
+		logger = Logger.getLogger("OpenEmrDemoAzure"); // Added logger name of the project  testcasename
+		PropertyConfigurator.configure("log4j.properties");// Added logger
 		
 		
 			if (browserName.equals("ch")) {
