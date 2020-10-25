@@ -6,7 +6,6 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -27,13 +26,13 @@ public class WebDriverWrapper {
 	@BeforeMethod
 	public void setUp(String browserName) throws IOException {
 		
-		logger = Logger.getLogger("OpenEmrDemoAzure"); // Added logger name of the project  testcasename
-		PropertyConfigurator.configure("log4j.properties");// Added logger
+		logger = Logger.getLogger(WebDriverWrapper.class); // Added logger name of the project  testcasename
 		
 		
 			if (browserName.equals("ch")) {
 				System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 				driver = new ChromeDriver();
+				logger.info("Lanching Chromr ");
 				
 			} else if (browserName.equals("ff")) {
 				System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");

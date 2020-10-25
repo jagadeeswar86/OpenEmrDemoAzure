@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [OpenEmdDemoAzure]">
+  <test thread-count="5" name=" Login Test ch(failed)">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="org.slk.test.SearchPatientNameTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="searchPatientName" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- org.slk.test.SearchPatientNameTest -->
+    </classes>
+  </test> <!--  Login Test ch(failed) -->
   <test thread-count="5" name=" Login Test ff(failed)">
     <parameter name="browser" value="ff"/>
     <classes>
@@ -8,7 +20,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="searchPatientName" invocation-numbers="0"/>
+          <include name="searchPatientName" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- org.slk.test.SearchPatientNameTest -->
     </classes>
